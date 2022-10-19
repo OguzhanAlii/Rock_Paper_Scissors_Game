@@ -42,7 +42,7 @@ String ChoosePlayerMove() {
   } else if (input == "scissors") {
     move = Moves.Scissors.toString().split('.').last;
   } else {
-    //print("yanlis secim");
+    
   }
 
   return move;
