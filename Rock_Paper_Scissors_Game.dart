@@ -41,10 +41,7 @@ String ChoosePlayerMove() {
     move = Moves.Paper.toString().split('.').last;
   } else if (input == "scissors") {
     move = Moves.Scissors.toString().split('.').last;
-  } else {
-    
-  }
-
+  } 
   return move;
 }
 
